@@ -6,7 +6,7 @@ def sub(a, b):
 	return a - b
 
 def mul(a, b):
-	return 0 #TODO: Your code here
+	return a * b #TODO: Your code here
 
 def div(a, b):
 	return a / b
@@ -18,7 +18,7 @@ def mod(a, b):
 def main():
 	a = 66	#First number
 	b = 33	#Second number
-	result = div(a,b)	# First divided by second
+	result = mul(a,b)	# First divided by second
 	print("The result is %.2f" % result)
 
 if __name__ == "__main__":
